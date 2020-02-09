@@ -1,0 +1,47 @@
+.content{
+	color: #fff;
+	width: 750px;
+	padding: 0;
+}
+.header{
+	background-color: #7e81d3;
+	height: 100px;
+	margin-bottom: 2px;
+	padding-top: 23px;
+	text-transform: uppercase;
+	text-align: left;
+}
+.header h1{
+	margin: 0 10px;
+	padding: 0 15px;
+}
+.general-content{
+	margin: 0;
+}
+
+.general-content > div{
+	height: max-content;	
+}
+.general-content div > h6, p{
+	margin: 10px;
+}
+
+.left-menu, 
+.right-menu{
+	text-align: left;
+}
+
+.left-menu{
+	background-color: #d35e5a;
+}
+
+.right-menu{
+	background-color: #77ad6b;
+}
+.specific-content{
+	background-color: #9fc7ca;
+}
+
+.specific-content p{
+	text-align: left;
+}

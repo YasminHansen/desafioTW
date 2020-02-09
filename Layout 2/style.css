@@ -1,0 +1,88 @@
+
+.page{
+	width: 750px;
+	padding: 0;
+}
+.header,
+.page-footer{
+	background-color: #6473ba;
+}
+.header,
+.page-footer{
+	height: 100px;
+	color: #fff;
+	padding-top: 23px;
+}
+.header h1{
+	margin: 0;
+}
+.main-menu{
+	background-color: #b2291f;
+	color: #fff;
+	padding: 10px 0;
+}
+.main-menu ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.main-menu ul li a{
+	padding: 0 15px;
+	color: #fff;
+}
+
+.content{
+	text-align: left;
+}
+.content{
+	color: #b2291f;
+	background-color: #f1f2ee;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.content > div{
+	padding: 15px;
+}
+
+.content h6{
+	font-weight: 600;
+}
+
+.nav-column ul li{
+	list-style: none;
+}
+.nav-column ul,
+.main-column form{
+	font-weight: 500;
+	padding: 0;
+	text-transform: none;
+}
+.nav-column ul li a:hover,
+.main-column form a:hover{
+	color: #b2291f;
+}
+.main-column{
+	border-left: 1px #b2291f dashed; 
+	border-right: 1px #b2291f dashed;
+}
+.main-column > form{
+	color: #000;
+}
+.main-column > form div{
+	margin: 5px 0;
+}
+.main-column > form input, form textarea,
+.main-column form button{
+	width: 100%; 
+}
+.main-column form button{
+	margin-top: 10px;
+}
+.main-column form input[type="checkbox"]{
+	width: auto;
+	margin-right: 5px;
+	margin-top: 5px;
+}
